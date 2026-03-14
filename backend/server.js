@@ -15,7 +15,7 @@ app.use(
         origin: [
             "http://localhost:5173", // Vite dev server
             "http://localhost:3000",
-            process.env.FRONTEND_URL, // Set in .env for production
+            'https://forecastmonitoring.vercel.app/', // Set in .env for production
         ].filter(Boolean),
         methods: ["GET"],
     })
